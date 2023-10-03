@@ -1,0 +1,7 @@
+{
+    "scripts": {
+        "dev": "cd frontend && npm run dev",
+        "serve": "cd gateway/code && npm run dev",
+        "deploy": "cd gateway && s deploy"
+    }
+}

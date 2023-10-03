@@ -1,0 +1,45 @@
+{
+  "statefulConfig": {
+    "functionId": "d4be4a02-7f9f-4494-8b4a-3a128afc5f1c",
+    "functionName": "proxy-movies-main",
+    "description": "hello world by serverless devs",
+    "runtime": "custom",
+    "handler": "index.handler",
+    "timeout": 60,
+    "initializer": "",
+    "initializationTimeout": 3,
+    "codeSize": 771957,
+    "codeChecksum": "5118998723855347029",
+    "memorySize": 128,
+    "gpuMemorySize": null,
+    "environmentVariables": {},
+    "createdTime": "2023-10-03T14:44:32Z",
+    "lastModifiedTime": "2023-10-03T15:06:27Z",
+    "instanceConcurrency": 1,
+    "instanceSoftConcurrency": null,
+    "customContainerConfig": null,
+    "caPort": 9000,
+    "instanceType": "e1",
+    "layers": null,
+    "layersArnV2": null,
+    "instanceLifecycleConfig": {
+      "preFreeze": {
+        "handler": "",
+        "timeout": 3
+      },
+      "preStop": {
+        "handler": "",
+        "timeout": 3
+      }
+    },
+    "customDNS": null,
+    "customRuntimeConfig": {
+      "command": [
+        "./bootstrap"
+      ],
+      "args": null
+    },
+    "customHealthCheckConfig": null,
+    "name": "proxy-movies-main"
+  }
+}

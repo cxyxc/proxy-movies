@@ -1,0 +1,9 @@
+{
+  "serviceName": "proxy-movies",
+  "functionNames": [
+    "proxy-movies/proxy-movies-main"
+  ],
+  "domains": [
+    "proxy-movies-main.proxy-movies.1764658130721452.cn-hangzhou.fc.devsapp.net"
+  ]
+}

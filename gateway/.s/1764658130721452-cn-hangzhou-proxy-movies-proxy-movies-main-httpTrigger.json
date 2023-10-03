@@ -1,0 +1,28 @@
+{
+  "statefulConfig": {
+    "triggerName": "httpTrigger",
+    "description": "",
+    "triggerId": "556b7773-d75e-4465-8a79-ef6f74f46025",
+    "sourceArn": null,
+    "triggerType": "http",
+    "invocationRole": null,
+    "qualifier": "LATEST",
+    "urlInternet": "https://proxy-mies-main-proxy-movies-jlxojivwtg.cn-hangzhou.fcapp.run",
+    "urlIntranet": "https://proxy-mies-main-proxy-movies-jlxojivwtg.cn-hangzhou-vpc.fcapp.run",
+    "triggerConfig": {
+      "methods": [
+        "GET",
+        "POST",
+        "PUT",
+        "DELETE"
+      ],
+      "authType": "anonymous",
+      "disableURLInternet": false
+    },
+    "createdTime": "2023-10-03T14:44:32Z",
+    "lastModifiedTime": "2023-10-03T15:06:27Z",
+    "status": null,
+    "targetArn": null,
+    "name": "httpTrigger"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "domainName": "proxy-movies-main.proxy-movies.1764658130721452.cn-hangzhou.fc.devsapp.net",
+  "accountId": "1764658130721452",
+  "protocol": "HTTP",
+  "certConfig": {
+    "certName": null,
+    "privateKey": null,
+    "certificate": null
+  },
+  "tlsConfig": {
+    "minVersion": null,
+    "maxVersion": null,
+    "cipherSuites": null
+  },
+  "apiVersion": "2016-08-15",
+  "routeConfig": {
+    "routes": [
+      {
+        "path": "/*",
+        "accountId": null,
+        "apiVersion": "",
+        "serviceName": "proxy-movies",
+        "functionName": "proxy-movies-main",
+        "qualifier": null,
+        "methods": [
+          "GET",
+          "POST",
+          "PUT",
+          "DELETE"
+        ],
+        "rewriteConfig": null,
+        "innerRewriteConfig": null
+      }
+    ]
+  },
+  "createdTime": "2023-10-03T14:44:35Z",
+  "lastModifiedTime": "2023-10-03T15:06:30Z",
+  "keepFullPath": null,
+  "subdomainCount": null,
+  "wafConfig": {
+    "enableWAF": false
+  }
+}
